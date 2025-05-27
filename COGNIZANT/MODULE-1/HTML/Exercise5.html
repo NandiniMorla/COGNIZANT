@@ -1,0 +1,32 @@
+<form onsubmit="showConfirmation(event)">
+    <label>Name: <input type="text" placeholder="Your name" required autofocus></label><br>
+    <label>Email: <input type="email" placeholder="Your email" required></label><br>
+    <label>Date: <input type="date" required></label><br>
+    <label>Event Type:
+        <select id="eventType" required>
+            <option value="">Select</option>
+            <option value="music">Music</option>
+            <option value="yoga">Yoga</option>
+        </select>
+    </label><br>
+    <label>Message:<br>
+        <textarea placeholder="Any message..."></textarea>
+    </label><br>
+    <button type="submit">Register</button>
+    <output id="confirmationMsg"></output>
+</form>
+
+<script>
+    function showConfirmation(e) {
+        e.preventDefault();
+        document.getElementById('confirmationMsg').textContent = "Registration successful!";
+    }
+</script>
+
+<style>
+    form {
+        border: 1px solid #ccc;
+        padding: 15px;
+        width: 300px;
+    }
+</style>

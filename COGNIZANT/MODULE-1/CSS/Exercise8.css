@@ -1,0 +1,19 @@
+.eventCard {
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid #007BFF;
+}
+
+/* Outline for form fields */
+input:focus, select:focus {
+  outline: 2px dashed #007BFF;
+}
+
+/* Visibility vs display */
+.hidden {
+  visibility: hidden;
+}
+
+.none {
+  display: none;
+}

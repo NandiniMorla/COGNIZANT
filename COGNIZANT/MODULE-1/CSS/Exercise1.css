@@ -1,0 +1,12 @@
+/* Header styles */
+#mainHeader {
+  font-size: 28px;
+  color: #333;
+}
+
+/* Event card styles */
+.eventCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}

@@ -1,0 +1,14 @@
+/* Background and text colors */
+body {
+  background-color: #ffffff; /* fallback */
+  background-image: url('cityscape.jpg');
+  background-size: cover;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+/* Gradient background */
+section.header {
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+  color: white;
+  padding: 20px;
+}
